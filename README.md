@@ -16,7 +16,7 @@ Bem-vindo ao repositório oficial de "Harmony of Life"! Este jogo encantador com
 
 ### Instruções Rápidas:
 
-1. 🧩 **Clone o Repositório:** `git clone https://github.com/seu-usuario/HarmonyOfLife.git`
+1. 🧩 **Clone o Repositório:** `git clone https://github.com/Julioall/HarmonyOfLife.git`
 2. 🚀 **Abra o Projeto:** Utilize o Game Maker Studio para abrir o projeto e começar a explorar.
 3. 🌐 **Divirta-se:** Contribua, experimente e ajude a construir a harmonia neste mundo mágico.
 
