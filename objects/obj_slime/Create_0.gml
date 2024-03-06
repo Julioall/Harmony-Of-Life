@@ -15,7 +15,7 @@ distancia_perigo = 50;
 distancia_segura = 100;
 alarm[0] = 1;
 
-
+vida = 100;
 
 
 

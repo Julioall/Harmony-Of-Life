@@ -19,3 +19,5 @@ estado = scr_personagem_andando;
 //Combate
 estamina_maxima = 100;
 estamina = estamina_maxima;
+dano = 10;
+atacando = false;

@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Correndo",
-    "path":"folders/Sprites/Player/Correndo.yy",
+    "name":"Andando",
+    "path":"folders/Sprites/Player/Andando.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -13,8 +13,8 @@
   "name":"obj_personagem",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Personagem",
+    "path":"folders/Objetos/Personagem.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -7,10 +7,9 @@ function scr_slime_escolher_estado(){
         destino_x = irandom_range(0, room_width);
         destino_y = irandom_range(0, room_height);
         
-        show_debug_message("Slime escolheu estado: Andando");
+       
     } else if (proximo_estado == scr_slime_parado){
         estado = scr_slime_parado;
-        show_debug_message("Slime escolheu estado: Parado");
     }
 }
 
@@ -18,12 +17,10 @@ function scr_slime_escolher_estado(){
 function scr_slime_colisao(){
     // Colisão do slime com outros objetos na horizontal
     if place_meeting(x + velocidade_horizontal, y, obj_parede){
-        show_debug_message("Colisão horizontal detectada. Corrigindo...");
         while (!place_meeting(x + sign(velocidade_horizontal), y, obj_parede)){
             x += sign(velocidade_horizontal);
         }
         velocidade_horizontal = 0;
-        show_debug_message("Correção de colisão horizontal concluída.");
     }
     
     // Movimenta o slime na horizontal
@@ -31,12 +28,10 @@ function scr_slime_colisao(){
 
     // Colisão do slime com outros objetos na vertical
     if place_meeting(x, y + velocidade_vertical, obj_parede){
-        show_debug_message("Colisão vertical detectada. Corrigindo...");
         while (!place_meeting(x, y + sign(velocidade_horizontal), obj_parede)){
             y += sign(velocidade_vertical);
         }
         velocidade_vertical = 0;
-        show_debug_message("Correção de colisão vertical concluída.");
     }
 
     // Movimenta o slime na vertical
@@ -48,7 +43,6 @@ function scr_slime_colisao(){
 function scr_slime_checar_perigo(){
     if distance_to_object(obj_personagem) <= distancia_segura{
         estado = scr_slime_perseguindo;
-        show_debug_message("Slime detectou perigo. Perseguindo...");
     }
 }
 
@@ -86,7 +80,6 @@ function scr_slime_andando(){
     }else{
         x = destino_x;
         y = destino_y;
-        show_debug_message("Distância ao ponto de destino atingida. Parando...");
     }
     
 }
@@ -172,6 +165,5 @@ function scr_slime_perseguindo(){
     if distance_to_object(obj_personagem) >= distancia_segura{
         estado = scr_slime_escolher_estado;
         alarm[0] = irandom_range(120, 240);
-        show_debug_message("Perseguindo o personagem. Mudando para um novo estado em breve...");
     }
 }
