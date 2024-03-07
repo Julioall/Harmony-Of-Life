@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_area_de_colisao_cima",
   "bboxMode":0,
-  "bbox_bottom":31,
+  "bbox_bottom":18,
   "bbox_left":4,
   "bbox_right":25,
   "bbox_top":5,

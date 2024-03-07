@@ -16,6 +16,9 @@ distancia_segura = 100;
 alarm[0] = 1;
 
 vida = 100;
+direcao_empurrao = 0;
+velocidade_empurrao = 0;
+sendo_atacado = false;
 
 
 

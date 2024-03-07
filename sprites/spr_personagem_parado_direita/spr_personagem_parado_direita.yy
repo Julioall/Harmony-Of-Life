@@ -23,7 +23,7 @@
   ],
   "name":"spr_personagem_parado_direita",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Parado",
     "path":"folders/Sprites/Player/Parado.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":16,
+    "yorigin":24,
   },
   "swatchColours":null,
   "swfPrecision":2.525,

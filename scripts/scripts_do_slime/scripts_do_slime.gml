@@ -38,7 +38,6 @@ function scr_slime_colisao(){
     y += velocidade_vertical;
 }
 
-
 // Função para verificar se o slime está em perigo (próximo ao personagem)
 function scr_slime_checar_perigo(){
     if distance_to_object(obj_personagem) <= distancia_segura{
@@ -167,3 +166,11 @@ function scr_slime_perseguindo(){
         alarm[0] = irandom_range(120, 240);
     }
 }
+
+//Função para quando o slime é atacado
+ function scr_slime_sendo_atacado(){
+	 velocidade_empurrao = lerp(velocidade_empurrao, 0, 0.02);
+	 velocidade_horizontal = lengthdir_x(velocidade_empurrao, direcao_empurrao);
+	 velocidade_vertical = lengthdir_y(velocidade_empurrao, direcao_empurrao);
+	 scr_slime_colisao();
+ }

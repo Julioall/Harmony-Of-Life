@@ -49,7 +49,7 @@
     ],
     "top":0,
   },
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Andando",
     "path":"folders/Sprites/Player/Andando.yy",
@@ -123,7 +123,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":16,
+    "yorigin":24,
   },
   "swatchColours":null,
   "swfPrecision":2.525,

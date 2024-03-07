@@ -21,9 +21,9 @@
     {"name":"NPCs","order":3,"path":"folders/Sprites/NPCs.yy",},
     {"name":"Slime","order":1,"path":"folders/Sprites/NPCs/Slime.yy",},
     {"name":"Player","order":1,"path":"folders/Sprites/Player.yy",},
+    {"name":"Andando","order":4,"path":"folders/Sprites/Player/Andando.yy",},
     {"name":"Atacando","order":7,"path":"folders/Sprites/Player/Atacando.yy",},
     {"name":"Espada","order":1,"path":"folders/Sprites/Player/Atacando/Espada.yy",},
-    {"name":"Andando","order":4,"path":"folders/Sprites/Player/Andando.yy",},
     {"name":"Efeitos","order":6,"path":"folders/Sprites/Player/Efeitos.yy",},
     {"name":"Parado","order":5,"path":"folders/Sprites/Player/Parado.yy",},
   ],
@@ -55,6 +55,7 @@
     {"name":"spr_sline_parado_direita","order":8,"path":"sprites/spr_sline_parado_direita/spr_sline_parado_direita.yy",},
     {"name":"spr_sline_parado_esquerda","order":7,"path":"sprites/spr_sline_parado_esquerda/spr_sline_parado_esquerda.yy",},
     {"name":"spr_sline_sombra","order":4,"path":"sprites/spr_sline_sombra/spr_sline_sombra.yy",},
+    {"name":"spr_area_colisao","order":8,"path":"sprites/spr_area_colisao/spr_area_colisao.yy",},
     {"name":"Sprite5","order":2,"path":"sprites/Sprite5/Sprite5.yy",},
   ],
 }
