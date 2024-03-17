@@ -135,6 +135,7 @@ function scr_personagem_andando(){
 #region Esquivar
 // Função responsável pela ação de esquiva do personagem
 function scr_personagem_esquiva(){
+	pode_tomar_dano = false;
 	// Calcula as componentes da velocidade de esquiva com base na direção
 	velocidade_horizontal = lengthdir_x(velocidade_esquiva, direcao_esquiva);
 	velocidade_vertical = lengthdir_y(velocidade_esquiva, direcao_esquiva);
@@ -148,31 +149,30 @@ function scr_personagem_esquiva(){
 }
 #endregion
 
-#region Atacar
+
 function scr_personagem_atacando(){
     var _direcao = floor((point_direction(x, y, mouse_x, mouse_y) + 45) / 90);
     
-    if (image_index >= 1 && !atacando && estamina > 5){
-        var _instancia = instance_create_layer(x, y, "Instances", obj_area_colisao_ataque);
+    if (image_index >= 2 && !atacando && estamina > 5){
         
-        // Defina a sprite_index após criar a instância
-        switch (_direcao){
-            default:
-                _instancia.sprite_index = spr_area_de_colisao_direita;
-                break;
-            
-            case 1:
-                _instancia.sprite_index = spr_area_de_colisao_cima;
-                break;
-        
-            case 2:
-                _instancia.sprite_index = spr_area_de_colisao_esquerda;
-                break;
-            
-            case 3:
-                _instancia.sprite_index = spr_area_de_colisao_baixo;
-                break;
-        }
+		switch _direcao{
+			// Direita
+			default:
+				instance_create_layer(x + 10, y, "Instances", obj_area_colisao_ataque);
+				break;
+			// Cima
+			case 1:
+				instance_create_layer(x , y - 12, "Instances", obj_area_colisao_ataque)
+				break;
+			// Esquerda
+			case 2:
+				instance_create_layer(x - 10, y, "Instances", obj_area_colisao_ataque)
+				break;
+			// Baixo
+			case 3:
+				instance_create_layer(x, y + 8, "Instances", obj_area_colisao_ataque)
+				break;
+		}
         
         atacando = true;
     }
@@ -182,4 +182,13 @@ function scr_personagem_atacando(){
         atacando = false;
     }
 }
-#endregion
+
+function scr_personagem_sendo_atacado(){
+	if alarm[2] > 0 {
+	velocidade_horizontal = lengthdir_x(3, direcao_empurrao);
+	velocidade_vertical = lengthdir_y(3, direcao_empurrao);
+	scr_personagem_colisao();
+	}else{
+		estado = scr_personagem_andando;
+	}
+}

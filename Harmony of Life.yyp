@@ -52,7 +52,7 @@
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_mundo","path":"rooms/rm_mundo/rm_mundo.yy",},},
     {"id":{"name":"scripts_de_funcoes","path":"scripts/scripts_de_funcoes/scripts_de_funcoes.yy",},},
     {"id":{"name":"scripts_do_personagem","path":"scripts/scripts_do_personagem/scripts_do_personagem.yy",},},
     {"id":{"name":"scripts_do_slime","path":"scripts/scripts_do_slime/scripts_do_slime.yy",},},
@@ -88,7 +88,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_mundo","path":"rooms/rm_mundo/rm_mundo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -174,3 +174,5 @@ function scr_slime_perseguindo(){
 	 velocidade_vertical = lengthdir_y(velocidade_empurrao, direcao_empurrao);
 	 scr_slime_colisao();
  }
+ 
+ 
