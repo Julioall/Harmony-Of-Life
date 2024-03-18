@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Parado",
-    "path":"folders/Sprites/Player/Parado.yy",
+    "path":"folders/Sprites/Personagem/Parado.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

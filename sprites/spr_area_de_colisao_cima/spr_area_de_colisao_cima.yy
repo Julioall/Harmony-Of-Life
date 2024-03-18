@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Espada",
-    "path":"folders/Sprites/Player/Atacando/Espada.yy",
+    "path":"folders/Sprites/Personagem/Atacando/Espada.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

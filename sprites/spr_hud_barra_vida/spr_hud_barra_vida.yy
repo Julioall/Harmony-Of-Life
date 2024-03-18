@@ -26,7 +26,7 @@
   "origin":3,
   "parent":{
     "name":"Interface",
-    "path":"folders/Sprites/Player/Interface.yy",
+    "path":"folders/Sprites/Personagem/Interface.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

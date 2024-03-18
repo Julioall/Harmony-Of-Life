@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Efeitos",
-    "path":"folders/Sprites/Player/Efeitos.yy",
+    "path":"folders/Sprites/Personagem/Efeitos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

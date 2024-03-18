@@ -52,7 +52,7 @@
   "origin":9,
   "parent":{
     "name":"Andando",
-    "path":"folders/Sprites/Player/Andando.yy",
+    "path":"folders/Sprites/Personagem/Andando.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

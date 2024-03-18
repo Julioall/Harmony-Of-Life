@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Slime",
-    "path":"folders/Sprites/NPCs/Slime.yy",
+    "path":"folders/Sprites/Criaturas/Slime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
