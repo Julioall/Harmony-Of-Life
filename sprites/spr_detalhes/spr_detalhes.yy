@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Mundo",
-    "path":"folders/Sprites/Mundo.yy",
+    "name":"Terrenos",
+    "path":"folders/Sprites/Mundo/Terrenos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
