@@ -4,6 +4,9 @@
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"autotile_4","closed_edge":false,"name":"autotile_4","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[217,112,111,163,58,216,166,162,275,276,218,278,271,270,272,0,],},
     {"$GMAutoTileSet":"","%Name":"autotile_5","closed_edge":false,"name":"autotile_5","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[703,760,759,649,706,702,875,707,705,924,704,650,757,756,758,714,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_6","closed_edge":false,"name":"autotile_6","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[69,288,287,177,234,230,241,242,233,179,232,292,285,294,295,831,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_7","closed_edge":false,"name":"autotile_7","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[379,436,435,386,382,378,389,324,381,438,380,326,433,432,434,330,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_8","closed_edge":false,"name":"autotile_8","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[865,1030,1029,811,976,864,875,810,975,924,866,812,919,918,920,977,],},
   ],
   "macroPageTiles":{
     "SerialiseHeight":0,

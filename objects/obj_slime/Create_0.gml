@@ -11,7 +11,7 @@ velocidade_perseguicao = 0.75;
 
 destino_x = 0;
 destino_y = 0;
-distancia_perigo = 50;
+distancia_perigo = 35;
 distancia_segura = 100;
 alarm[0] = 1;
 

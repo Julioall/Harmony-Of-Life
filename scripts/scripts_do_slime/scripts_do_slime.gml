@@ -40,7 +40,7 @@ function scr_slime_colisao(){
 
 // Função para verificar se o slime está em perigo (próximo ao personagem)
 function scr_slime_checar_perigo(){
-    if distance_to_object(obj_personagem) <= distancia_segura{
+    if distance_to_object(obj_personagem) <= distancia_perigo{
         estado = scr_slime_perseguindo;
     }
 }
